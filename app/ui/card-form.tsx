@@ -25,7 +25,7 @@ export default function CardForm() {
                   <Link href="/" className="bg-bg rounded-[21px] flex items-center p-[20px] mt-[10px] cursor-pointer justify-between leading-[1.4211]">
                     <p className="text-link text-[17px]">Buy for $4,99</p>
                   </Link>
-                  <p className="text-light-gray-bg text-[12px] max-w-[450px] mt-[10px] px-[20px] leading-[1.33337]">Discover the latest improvements and new APIs in Apple Pay. You'll discover enhancements to the Apple Pay eCommerce experience</p>
+                  <p className="text-light-gray-bg text-[12px] max-w-[450px] mt-[10px] px-[20px] leading-[1.33337]">Discover the latest improvements and new APIs in Apple Pay. You&apos;ll discover enhancements to the Apple Pay eCommerce experience</p>
                 </div>
               ) : (
                 <div>
@@ -33,7 +33,7 @@ export default function CardForm() {
                   <div>
                     <input className="bg-bg border-0 text-gray text-[17px] font-normal p-[20px] rounded-[21px] w-full mt-[10px] leading-[1.4211] focus:outline-2 focus:outline-solid focus:outline-link focus:border-0 placeholder-light-gray-bg" placeholder="Your name"></input>
                     <input className="bg-bg border-0 text-gray text-[17px] font-normal p-[20px] rounded-[21px] w-full mt-[10px] leading-[1.4211] focus:outline-2 focus:outline-solid focus:outline-link focus:border-0 placeholder-light-gray-bg" placeholder="Your card number"></input>
-                    <p className="text-light-gray-bg text-[12px] px-[20px] mt-[10px]">Discover the latest improvements and new APIs in Apple Pay. You'll discover enhancements to the Apple Pay eCommerce experience</p>
+                    <p className="text-light-gray-bg text-[12px] px-[20px] mt-[10px]">Discover the latest improvements and new APIs in Apple Pay. You&apos;ll discover enhancements to the Apple Pay eCommerce experience</p>
                     <div className="flex gap-[10px] mt-[10px]">
                       <input className="bg-bg border-0 text-gray text-[17px] font-normal p-[20px] rounded-[21px] w-full mt-[10px] leading-[1.4211] focus:outline-2 focus:outline-solid focus:outline-link focus:border-0 placeholder-light-gray-bg" placeholder="CVV"></input>
                       <input className="bg-bg border-0 text-gray text-[17px] font-normal p-[20px] rounded-[21px] w-full mt-[10px] leading-[1.4211] focus:outline-2 focus:outline-solid focus:outline-link focus:border-0 placeholder-light-gray-bg" placeholder="Date"></input>

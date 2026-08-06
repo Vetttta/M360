@@ -2,7 +2,7 @@ import Pagination from "@/app/ui/pagination";
 import Search from "@/app/ui/search";
 import ProductsList from "@/app/ui/products-list";
 import { fetchProductsPages } from "@/app/lib/data";
-import { signOut } from "@/auth";
+import Header from "@/app/ui/header";
 
 export default async function Page(props: {
   params?: Promise<{
@@ -22,6 +22,7 @@ export default async function Page(props: {
 
   return (
     <div>
+      <Header />
       <div className="bg-bg py-[56px] border-b-[#242424] border-b-[1px]">
         <div className="max-w-bgL mx-auto max-md:w-[87.5%]">
           <p className="text-[32px] tracking-[-0.035em] font-medium mb-[10px] max-lg:text-[28px] max-md:text-[24px]">Filtered items</p>
@@ -34,16 +35,6 @@ export default async function Page(props: {
           <Search placeholder="Search products..." />
           <ProductsList query={query} currentPage={currentPage} option={option} />
           <Pagination totalPages={totalPages}/>
-          <form 
-          action={async () => {
-            'use server';
-            await signOut({ redirectTo: '/login' });
-          }}
-        >
-          <button className="flex h-[48px] w-full grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3">
-            <div className="hidden md:block">Sign Out</div>
-          </button>
-        </form>
         </div>
       </div>
     </div>

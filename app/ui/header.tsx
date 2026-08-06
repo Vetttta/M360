@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export function Header() {
+export default function Header() {
   return (
     <div className="bg-[#151516]">
       <div className="h-[52px] w-full max-w-[1024px] px-[22px] mx-auto flex items-center justify-between">

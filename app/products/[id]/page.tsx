@@ -4,6 +4,7 @@ import Pagination from "@/app/ui/pagination";
 import Search from "@/app/ui/search";
 import { fetchProductsPages } from "@/app/lib/data";
 import { getProductById } from "@/app/lib/actions";
+import Header from "@/app/ui/header";
 
 export default async function Page(props: {
   params?: Promise<{
@@ -30,6 +31,7 @@ export default async function Page(props: {
   
   return (
     <div>
+      <Header />
       <div>
         <ProductDescription product={product} />
         <div className="flex">

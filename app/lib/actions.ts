@@ -88,8 +88,10 @@ export async function authenticate(
     await signIn('credentials', {
       email,
       password,
-      redirectTo: "/",
+      redirect: false,
     });
+
+    redirect('/');
   } catch (error) {
     if (error instanceof AuthError) {
       switch (error.type) {

@@ -11,7 +11,7 @@ export default function Header() {
           <Link href="/" className="hover:text-link">Cart</Link>
           <form className="flex" action={async () => {
               "use server";
-              await signOut({ redirectTo: "/" });
+              await signOut({ redirectTo: "/login" });
             }}
           >
             <button

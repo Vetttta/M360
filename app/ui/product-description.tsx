@@ -16,12 +16,12 @@ export default function ProductDescription({ product }: { product: ProductTable 
           </div>
         </div>
         <div className="ml-[56px] flex flex-wrap mr-auto max-w-bgL h-fit max-md:mx-auto max-md:pt-[22px] max-md:w-[87.5%] max-md:max-w-[428px] max-lg:ml-[34px]">
-          <div className="text-[12px] leading-[1.33337] font-semibold tracking-[-0.01em] text-light-gray uppercase max-lg:pb-[8px]">PODCAST</div>
+          <div className="text-[12px] leading-[1.33337] font-semibold tracking-[-0.01em] text-light-gray uppercase max-lg:pb-[8px]">PRODUCT</div>
           <div className="block w-full">
             <p className="text-[32px] leading-[1.125] font-bold tracking-[-0.035em] mb-[8px] max-lg:text-[28px] max-md:text-[24px]">{product.name}</p>
             <p className="text-[gray] text-[19px] leading-[1.21053] font-semibold tracking-[-0.035em] max-lg:text-[17px]">Release date: {product.release_date}</p>
             <p className="mt-[6px] mb-[28px] flex flex-wrap">
-              <Link href="/" className="text-[15px] leading-[27px] self-center text-gray tracking-[-0.024em] max-w-[280px] mt-[18px] no-underline font-normal max-lg:mt-[16px]">Listen on Apple Podcasts</Link>
+              <Link href="/" className="text-[15px] leading-[27px] self-center text-gray tracking-[-0.024em] max-w-[280px] mt-[18px] no-underline font-normal max-lg:mt-[16px]">Redirect to payment page</Link>
             </p>
           </div>
           <div className="block w-full flex-initial">

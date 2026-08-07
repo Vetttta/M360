@@ -9,7 +9,7 @@ export default function Page() {
         </div>
       </div>
       <div className="bg-bg py-[22px]">
-        <p className="text-[17px] mx-auto text-light-gray-bg leading-[1.35] max-w-[1024px] px-[22px]">Discover the latest improvements and new APIs in Apple Pay. You&apos;ll discover enhancements to the Apple Pay eCommerce experience Discover the latest improvements and new APIs in Apple Pay. You&apos;ll discover enhancements to the Apple Pay eCommerce experience</p>
+        <p className="text-[17px] mx-auto text-light-gray-bg leading-[1.35] max-w-[1024px] px-[22px]">An interactive product catalog application featuring user authentication, search filtering, and dynamic routing. Built as a portfolio project to demonstrate core skills in developing modern web applications with Next.js and the React ecosystem.</p>
       </div>
       <RegisterForm />
     </div>
